@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h1 class="mt-2 heading_sales">Sales & Commission Report</h1>
+          <hr class="mt-0 mb-4">
+          <h3><em>  {{ Sales_person }}  </em></h3>
+	          <table class="table">
+				<tr>
+					<th>Date</th>
+					<th>Items Sold</th>
+					<th>Total Price</th>
+					<th>Comission Earned</th>
+				</tr>
+			{% if Drink_objs %}
+			{% for obj in Drink_objs %}
+				<tr>
+					<td>{{ obj.date }}</td>
+					<td>{{ obj.items }}</td>
+					<td>{{ obj.total }}</td>
+					<td>{{ obj.commission }}</td>
+				</tr>
+			{% endfor %}
+			{% endif %}
+		</table>
+        </div>
+      </div>
+    </div>
+{% endblock %}

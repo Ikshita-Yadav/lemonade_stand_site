@@ -1,0 +1,103 @@
+body {
+background-color: #ebf7fc;
+padding: 1%;
+font-weight: bold;
+text-align: center;
+ background-color: #ebf7fc;
+ /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpK3tckg8OMsQscjwHEwo884DZOb1iUgqSzlNrzuQVZTAj5EZp&usqp=CAU);
+ background-size: cover;*/
+ background-image: url(https://images-na.ssl-images-amazon.com/images/I/715H5Eq94GL._AC_SX425_.jpg);
+   /*https://image.freepik.com/free-photo/fresh-lemon-slices-with-leaves-isolated-white_51524-4452.jpg);
+ /*background-size: cover;*/
+
+}
+
+.container-fluid {
+  padding: 5% 3%;
+}
+
+.base {
+
+}
+/*
+.lemonade_img {
+z-index: -1;
+position: relative;
+width:30%;
+height:35%;
+border-radius: 4%;
+margin-bottom:10px;
+}
+*/
+.lemonade_img2 {
+  position: absolute;
+  border-radius: 4%;
+  z-index: -1;
+  width:65%;
+  height:79%;
+  padding-top: 5.75%;
+}
+
+.mt-2 {
+  font-family: Pacifico;
+  line-height: 2rem;
+  font-size: 3rem;
+  padding: 1%;
+
+}
+
+.col-8 {
+  text-align: left;
+    background-color: #fffce2;
+  /*  background-color: #ebf7fc;*/
+}
+
+.lemonade_card{
+margin: 4%;
+  padding: 1%;
+  height: 520px;
+}
+
+.card-title {
+  font-family: Pacifico;
+  line-height: 1.25;
+}
+
+.card-body {
+ font-family: Satisfy;
+}
+
+.card-img-top{
+  height: 50%;
+}
+
+.form{
+  text-align: left;
+  background-color: #fffce2;
+}
+
+.row {
+  /*8margin: 0 5%;88888*/
+}
+
+.carousel{
+
+}
+
+.carousel-controls{
+/*  margin: 3%;
+  padding: 5%;*/
+}
+
+.table_name{
+    background-color: #fffce2;
+}
+
+.div.row{
+/*  margin: 30px;*/
+}
+
+.heading_sales{
+  line-height: 1.5;
+  font-size: 2rem;
+}
